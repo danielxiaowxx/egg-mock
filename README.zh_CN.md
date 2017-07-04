@@ -22,6 +22,10 @@
 
 一个数据模拟的库，更方便地测试 Egg 应用、插件及自定义 Egg 框架。`egg-mock` 拓展自 [node_modules/mm](https://github.com/node-modules/mm)，你可以使用所有 `mm` 包含的 API。
 
+## changed
+
+1. 去掉Messenger的send方法的hack，为了确保单进程实例的单元测试能成功执行
+
 ## Install
 
 ```bash
